@@ -1,0 +1,79 @@
+@import 'src/assets/styles/shared/breakpoints';
+
+.landing {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__background {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    &__content {
+      height: 100vh;
+      background-image: url("../../assets/images/background.jpg");
+      background-size: cover;
+      background-blend-mode: lighten;
+      filter: blur(7px);
+    }
+  }
+  &__content {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    &__title {
+      width: 70%;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      border: 3px solid whitesmoke;
+      z-index: 2;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &__welcome {
+        font-style: italic;
+        font-size: 6rem;
+        font-family: Apple Chancery, cursive;
+      }
+
+      &__christmas-text{
+        font-style: italic;
+        font-size: 3rem;
+
+      }
+    }
+    &__actions {
+    font-size: 4rem;
+      font-family: cursive;
+    a{
+      text-decoration: none;
+
+      color: whitesmoke;
+      &:hover{
+        font-size: 2.5rem;
+
+      }
+    }
+    }
+  }
+
+}
+
+@media (max-width: $bp-small) {
+  .landing {
+    &__background {
+      height: 100%;
+      background-image: none;
+      background-color: red;
+    }
+  }
+}
+
+
+

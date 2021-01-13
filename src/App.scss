@@ -1,0 +1,13 @@
+@import 'src/assets/styles/shared/breakpoints.scss';
+
+body, html {
+  font-size: 62.5%; // 1rem = 10px
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%;
+  }
+}
+
+.blog {
+  height: 100vh;
+}
