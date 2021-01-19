@@ -1,0 +1,44 @@
+.sidebar {
+  background-image: url("../../../../assets/images/images.jpeg");
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  height: 100rem;
+
+  &:hover {
+    left: 0;
+  }
+  /*&--open {
+    width: 15rem;
+    transition: width cubic-bezier(0.4, 0, 0.6, 1) 225ms;
+  }
+  &--close {
+    width: 5rem;
+    transition: width cubic-bezier(0.4, 0, 0.6, 1) 195ms;
+
+  }*/
+&__content{
+  z-index: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: white;
+  overflow: hidden;
+  background-color: red;
+  color: white;
+  height: 100px;
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+
+    &:hover{
+      font-size: 2.3rem;
+    }
+  }
+}
+}

@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ec4085-6822-4271-b14a-59d9e8b6bd76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/sidebar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/post-service/post.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/components/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/components/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/components/sidebar/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/components/sidebar/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/posts/posts-table/post-table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/users/user-table/user-table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/posts/posts-table/post-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/posts/posts-table/post-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/users/user-table/user-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/users/user-table/user-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +55,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/styles/shared" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets/styles/shared" />
       <recent name="$PROJECT_DIR$/src/views/landing/img" />
     </key>
   </component>
@@ -69,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610399179697</updated>
-      <workItem from="1610399182499" duration="27556000" />
+      <workItem from="1610399182499" duration="60124000" />
     </task>
     <servers />
   </component>
