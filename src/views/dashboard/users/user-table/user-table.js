@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import { deleteUserRequest, getALlUsersRequest } from '../../../../services/user-service/user.service';
 import './user-table.scss';
 import Button from '../../../../components/button/button';
-import { generateSingleUserRoute } from '../../../../utils/routes/routes';
+import { generateSingleUserEditRoute, generateSingleUserViewRoute } from '../../../../utils/routes/routes';
 
 const UserTable = () => {
   const history = useHistory();
@@ -25,11 +25,11 @@ const UserTable = () => {
   };
 
   const viewUser = (id) => {
-    history.push(generateSingleUserRoute(id));
+    history.push(generateSingleUserViewRoute(id));
   };
 
   const editUser = (id) => {
-    history.push(generateSingleUserRoute(id));
+    history.push(generateSingleUserEditRoute(id));
   };
 
   const deleteUser = async (id) => {
